@@ -10,14 +10,11 @@
   box-sizing: border-box;
 }
 .btn-25 {
-  -webkit-tap-highlight-color: 
-transparent;
+  -webkit-tap-highlight-color: transparent;
   -webkit-appearance: button;
-  background-color: 
-#000;
+  background-color: #000;
   background-image: none;
-  color: 
-#fff;
+  color: #fff;
   cursor: pointer;
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
     Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
@@ -44,8 +41,7 @@ transparent;
   display: none;
 }
 .btn-25 {
-  --background: 
-#000;
+  --background: #000;
   background: none;
   overflow: hidden;
   padding: 0.8rem 3rem;
@@ -59,8 +55,7 @@ transparent;
 .btn-25:after,
 .btn-25:before {
   --tilt: 20px;
-  background: 
-#fff;
+  background: #fff;
   -webkit-clip-path: polygon(0 50%, 0 0, 100% 0, 100% 50%, 100% 100%, 0 100%);
   clip-path: polygon(0 50%, 0 0, 100% 0, 100% 50%, 100% 100%, 0 100%);
   content: "";
@@ -94,7 +89,7 @@ transparent;
     var(--tilt) 100%
   );
   clip-path: polygon(
-    0 50%,
+    0 60%,
     var(--tilt) 0,
     calc(100% - var(--tilt)) 0,
     100% 50%,
