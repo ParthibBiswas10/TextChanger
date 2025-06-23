@@ -56,6 +56,12 @@ export default function Textbox() {
           Copied to Clipboard!
         </div>
       )}
+      <div>
+        <h2>Preview </h2>
+        <p>
+          {text.split.split(" ").length} words, {text.length} characters
+        </p>
+      </div>
     </div>
   );
 }
