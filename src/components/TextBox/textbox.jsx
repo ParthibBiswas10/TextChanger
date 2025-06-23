@@ -59,7 +59,7 @@ export default function Textbox() {
       <div>
         <h2>Preview </h2>
         <p>
-          {text.split.split(" ").length} words, {text.length} characters
+          {text.split(" ").length} words, {text.length} characters
         </p>
       </div>
     </div>
