@@ -6,8 +6,13 @@ import "./App.css";
 function App() {
   const [mode, setMode] = useState("light");
   const toggleMode = () => {
-    if (mode === "light") setMode("dark");
-    else setMode("light");
+    if (mode === "light") {
+      setMode("dark");
+      document.body.style.backgroundColor = "#243861";
+    } else {
+      setMode("light");
+      document.body.style.backgroundColor = "#8994ab";
+    }
   };
   return (
     <>
