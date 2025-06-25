@@ -40,7 +40,7 @@ export default function Textbox() {
       <button className="btn btn-primary mt-3 btn-25" onClick={upperCase}>
         UpperCase
       </button>
-      <button className="btn btn-primary mx-5 mt-3 btn-25" onClick={lowerCase}>
+      <button className="btn btn-primary mx-3 mt-3 btn-25" onClick={lowerCase}>
         LowerCase
       </button>
       <button className="btn btn-primary mx-3 mt-3 btn-25" onClick={clear}>
@@ -57,7 +57,7 @@ export default function Textbox() {
           </div>
         )}
       </div>
-      <div>
+      <div className="preview">
         <h2>Preview </h2>
         <p>
           {text === ""

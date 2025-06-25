@@ -22,7 +22,10 @@ body {
   display: inline-block !important;
   width: auto !important;
   top: 10px !important;
-  left: 50% !important;
+  left: 45% !important;
+}
+.preview {
+  margin-top: 25px; /* adjust to your liking */
 }
 
 .btn-25 {
