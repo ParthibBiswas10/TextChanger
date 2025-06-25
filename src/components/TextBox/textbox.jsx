@@ -37,7 +37,7 @@ export default function Textbox() {
           ref={textareaRef}
         ></textarea>
       </div>
-      <div className="d-flex justify-content-center gap-3 mt-3">
+      <div className="d-flex flex-column flex-md-row justify-content-center gap-3 mt-3">
         <button className="btn btn-primary btn-25" onClick={upperCase}>
           UpperCase
         </button>
