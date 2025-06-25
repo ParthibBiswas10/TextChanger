@@ -37,7 +37,7 @@ export default function Textbox() {
           ref={textareaRef}
         ></textarea>
       </div>
-      <button className="btn btn-primary mt-3 btn-25" onClick={upperCase}>
+      <button className="btn btn-primary mt-3 mx-3 btn-25" onClick={upperCase}>
         UpperCase
       </button>
       <button className="btn btn-primary mx-3 mt-3 btn-25" onClick={lowerCase}>
