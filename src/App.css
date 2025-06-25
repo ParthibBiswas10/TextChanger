@@ -13,6 +13,11 @@ body {
   background-color: #8994ab;
   color: black;
 }
+.main-content {
+  padding-top: 50px;
+  /* You can adjust this if your navbar is taller */
+}
+
 .btn-25 {
   -webkit-tap-highlight-color: transparent;
   -webkit-appearance: button;

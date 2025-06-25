@@ -27,9 +27,9 @@ export default function Textbox() {
   return (
     <div>
       <div className="mt-5 mb-1 flex flex-col justify-center items-center">
-        <h2 className="mb-3 text-xl">Text Changer</h2>
+        {/* <h3 className="my-10 text-xl">Text Changer</h3> */}
         <textarea
-          className="mt-5 form-control border-5 border-b-slate-950"
+          className="mt-5 form-control border-5 "
           value={text}
           placeholder="Enter Text Here"
           onChange={changing}

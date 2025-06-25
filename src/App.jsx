@@ -21,7 +21,7 @@ function App() {
       <header>
         <Navbar mode={mode} toggleMode={toggleMode} />
       </header>
-      <div className="container">
+      <div className="container main-content my-5">
         <TextBox />
       </div>
     </>
