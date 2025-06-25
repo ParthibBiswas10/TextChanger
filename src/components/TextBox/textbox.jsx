@@ -37,19 +37,20 @@ export default function Textbox() {
           ref={textareaRef}
         ></textarea>
       </div>
-      <button className="btn btn-primary mt-3 mx-3 btn-25" onClick={upperCase}>
-        UpperCase
-      </button>
-      <button className="btn btn-primary mx-3 mt-3 btn-25" onClick={lowerCase}>
-        LowerCase
-      </button>
-      <button className="btn btn-primary mx-3 mt-3 btn-25" onClick={clear}>
-        Clear
-      </button>
-
-      <button className="btn btn-primary mx-3 mt-3 btn-25" onClick={copy}>
-        Copy
-      </button>
+      <div className="d-flex justify-content-center gap-3 mt-3">
+        <button className="btn btn-primary btn-25" onClick={upperCase}>
+          UpperCase
+        </button>
+        <button className="btn btn-primary btn-25" onClick={lowerCase}>
+          LowerCase
+        </button>
+        <button className="btn btn-primary btn-25" onClick={clear}>
+          Clear
+        </button>
+        <button className="btn btn-primary btn-25" onClick={copy}>
+          Copy
+        </button>
+      </div>
       <div className="position-relative">
         {showPopup && (
           <div className="popup-compact bg-white text-black px-3 py-1 rounded shadow-lg">
