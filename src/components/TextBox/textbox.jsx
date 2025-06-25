@@ -27,8 +27,7 @@ export default function Textbox() {
   return (
     <div>
       <div className="mt-5 mb-1 flex flex-col justify-center items-center">
-        <h2>Text Changer</h2>
-
+        <h2 className="mb-3 text-xl">Text Changer</h2>
         <textarea
           className="mt-5 form-control border-5 border-b-slate-950"
           value={text}

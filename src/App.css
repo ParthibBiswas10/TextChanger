@@ -9,6 +9,10 @@
   border: 0 solid;
   box-sizing: border-box;
 }
+body {
+  background-color: #8994ab;
+  color: black;
+}
 .btn-25 {
   -webkit-tap-highlight-color: transparent;
   -webkit-appearance: button;

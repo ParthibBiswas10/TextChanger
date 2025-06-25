@@ -9,9 +9,11 @@ function App() {
     if (mode === "light") {
       setMode("dark");
       document.body.style.backgroundColor = "#243861";
+      document.body.style.color = "white";
     } else {
       setMode("light");
       document.body.style.backgroundColor = "#8994ab";
+      document.body.style.color = "black";
     }
   };
   return (
