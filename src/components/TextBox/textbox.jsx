@@ -50,11 +50,13 @@ export default function Textbox() {
       <button className="btn btn-primary mx-3 mt-3 btn-25" onClick={copy}>
         Copy
       </button>
-      {showPopup && (
-        <div className="absolute top-3 left-1/2 transform -translate-x-1/2 bg-slate-600 text-black p-2 rounded shadow-lg ">
-          Copied to Clipboard!
-        </div>
-      )}
+      <div className="position-relative">
+        {showPopup && (
+          <div className="popup-compact bg-white text-black px-3 py-1 rounded shadow-lg">
+            Copied to Clipboard!
+          </div>
+        )}
+      </div>
       <div>
         <h2>Preview </h2>
         <p>
