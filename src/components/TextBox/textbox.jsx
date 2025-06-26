@@ -80,27 +80,10 @@ d-flex
 
 flex-column
 Sets the flex direction to vertical by default — so items stack top → bottom on small screens. 
-w3schools.com
-+5
-reddit.com
-+5
-getbootstrap.com
-+5
-stackoverflow.com
-+4
-fastbootstrap.com
-+4
-digital.arizona.edu
-+4
 
 flex-md-row
 At medium screens (≥768 px) and above, the layout switches to horizontal row (flex-direction: row). 
-w3schools.com
-+10
-fastbootstrap.com
-+10
-stackoverflow.com
-+10
+
 
 justify-content-center, gap-3, mt-3
 Behave exactly the same as described above — centering along the main axis, spacing items, and adding vertical margin.
