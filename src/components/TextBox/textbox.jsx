@@ -34,7 +34,7 @@ export default function Textbox() {
           placeholder="Enter Text Here"
           onChange={changing}
           rows="15"
-          ref={textareaRef}
+          ref={textareaRef} // Reference to the textarea for copying text...using ref={textareaRef} i set a reference to the textarea element, so that I can access it later for copying text by using textareaRef.current.select() to select the text inside the textarea.
         ></textarea>
       </div>
       <div className="d-flex flex-column flex-md-row justify-content-center gap-3 mt-3">
