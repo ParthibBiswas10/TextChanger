@@ -71,8 +71,7 @@ export default function Textbox() {
 
 /*
   note: 
-
-🔹 2. d-flex flex-column flex-md-row justify-content-center gap-3 mt-3
+🔹 d-flex flex-column flex-md-row justify-content-center gap-3 mt-3
 This builds on the previous setup by adding responsive behavior:
 
 d-flex
@@ -83,7 +82,6 @@ Sets the flex direction to vertical by default — so items stack top → bottom
 
 flex-md-row
 At medium screens (≥768 px) and above, the layout switches to horizontal row (flex-direction: row). 
-
 
 justify-content-center, gap-3, mt-3
 Behave exactly the same as described above — centering along the main axis, spacing items, and adding vertical margin.
